@@ -95,7 +95,7 @@ label {
   margin-bottom: 5px;
 }
 
-img {
+#fotos>img {
   width: 200px;
   height: 200px;
   border-radius: 500px;
@@ -105,8 +105,8 @@ img {
   transition: all 0.3s ease;
 }
 
-img:hover,
-img:focus {
+#fotos>img:hover,
+#fotos>img:focus {
   transform: scale(1.5);
   z-index: 9999;
 }
