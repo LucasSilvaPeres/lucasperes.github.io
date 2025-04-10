@@ -1,0 +1,121 @@
+:root.theme-light{
+  --primary-color: #ccb9b3; 
+  --secondary-color: #9a8580;
+  --background-color: #d5dce6; 
+  --text-color: #312f3c; 
+  --border-color: #6470a2; 
+}
+
+:root.theme-dark {
+  --primary-color: #806d67;    
+  --secondary-color: #635451;  
+  --background-color: #2a3038;
+  --text-color: #d5d8e0;  
+  --border-color: #485581;
+}
+
+body{
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Lilita One", sans-serif;
+  -webkit-text-stroke: 0.5px rgb(60, 60, 60);
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 5px 0px;
+  margin: 20px;
+}
+
+section, .section-box{
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+}
+ h2{
+  margin: 0 0 15px 0;
+  font-size: 1.5em;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+li{
+  background-color: var(--secondary-color);
+  display: inline;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li:hover{
+  background-color: var(--background-color);
+  transition: all 0.2s ease;
+}
+
+.media-container {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.media-container section {
+  flex: 1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+audio{
+  width: 100%;
+  border-radius: 5px;
+}
+
+#fotos{
+  text-align: center; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 500px;
+  border: 2px solid var(--border-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+img:hover,
+img:focus {
+  transform: scale(1.5);
+  z-index: 9999;
+}
+
+footer{
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}

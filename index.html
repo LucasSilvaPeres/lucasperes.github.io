@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="caroussel.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+      <nav>
+        <ul>
+          <a href="#videos">
+            <li>Vídeos</li>
+          </a>
+          <a href="#musicas">
+            <li>Músicas</li>
+          </a>
+          <a href="#fotos">
+            <li>Fotos</li>
+          </a>
+        </ul>
+      </nav>
+  </header>
+  <main>
+    <div class="media-container" >
+      <div class="section-box" id="videos">
+        
+        <h2>Vídeos</h2>
+        <div class="carousel-container">
+          <div class="carousel-track">
+              <div class="carousel-item">
+                  <video controls>
+                      <source src="Assets/videos/Kinder_Hamster.mp4" type="video/mp4" >
+                  </video>
+              </div>
+              <div class="carousel-item">
+                  <video controls>
+                      <source src="Assets/videos/cat1.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="carousel-item">
+                  <video controls>
+                      <source src="Assets/videos/cat2.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="carousel-item">
+                  <video controls>
+                      <source src="Assets/videos/cat3.mp4" type="video/mp4">
+                  </video>
+              </div>
+              <div class="carousel-item">
+                  <video controls>
+                      <source src="Assets/videos/cat4.mp4" type="video/mp4">
+                  </video>
+              </div>
+          </div>
+          <button class="nav-button prev-button">&lt;</button>
+          <button class="nav-button next-button">&gt;</button>
+        </div>
+      </div>
+      <section id="musicas">
+        <h2>Músicas</h2>
+        <label for="audio1">Hino da União Sovietica</label>
+        <audio id="audio1" name="audio1" src="Assets/audios/revolucao.mp3" controls></audio>
+        <label for="audio2">Never Gonna Give You Up</label>
+        <audio id="audio2" name="audio2" src="Assets/audios/Rick_Astley_Never_Gonna_Give_You_Up.mp3" controls></audio>
+        <label for="audio3">You Spin Me Round</label>
+        <audio id="audio3" name="audio3" src="Assets/audios/You_Spin_Me_Round.mp3" controls></audio>
+        <label for="audio4">Thriller</label>
+        <audio id="audio3" name="audio3" src="Assets/audios/Thriller.mp3" controls></audio>
+        <label for="audio5">Amerika</label>
+        <audio id="audio3" name="audio3" src="Assets/audios/Amerika.mp3" controls></audio>
+      </section>
+    </div>
+    <section id="fotos">
+      <h2>Fotos</h2>
+      <img src="Assets/images/foto1.jpg">
+      <img src="Assets/images/foto2.jpg">
+      <img src="Assets/images/foto3.jpg">
+      <img src="Assets/images/foto4.jpg">
+      <img src="Assets/images/foto5.jpg">
+      <img src="Assets/images/foto6.jpg">
+      <img src="Assets/images/foto7.jpg">
+      <img src="Assets/images/foto8.jpg">
+      <img src="Assets/images/foto9.jpg">
+      <img src="Assets/images/foto10.jpg">
+    </section>
+    
+  </main>
+  <footer>
+    <p>Lucas Silva Peres - lucas.peres7@fatec.sp.gov.br</p>
+  </footer>
+</body>
+<script src="caroussel.js"></script>
+</html>
